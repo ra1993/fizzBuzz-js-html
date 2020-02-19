@@ -1,6 +1,6 @@
 theOutput = document.getElementById("theOutput");
 
-document.getElementById("output").textContent = output;
+output = document.getElementById("output").textContent;
 
 theButton = document.getElementById("theButton");
 let start_num = document.getElementById("start_num").value;
