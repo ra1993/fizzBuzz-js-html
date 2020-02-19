@@ -1,7 +1,5 @@
 theOutput = document.getElementById("theOutput");
 
-output = document.getElementById("output").textContent;
-
 theButton = document.getElementById("theButton");
 let start_num = document.getElementById("start_num").value;
 let end_num =  document.getElementById("end_num").value;
@@ -28,3 +26,5 @@ var fizzBuzz = function(start_num, end_num) {
            output.push(i);
         };
     }
+    document.getElementById("output").textContent = output;
+}
